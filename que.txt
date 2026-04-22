@@ -1,0 +1,9 @@
+Mern stack 
+
+Javascript 
+
+reactjs     node and express    mongodb
+
+React 
+SPA -> single page application 
+
