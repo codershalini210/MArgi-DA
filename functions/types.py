@@ -1,11 +1,31 @@
-def chkeven(n):
-    if(n%2 ==0):
-        return True
-    return False
-if(chkeven(50)):
-    print("even no ")
-else:
-    print ("odd no ")
+# fun1 = lambda x: x+10
+# print(fun1(5))
+# print(fun1(12))
+
+# add = lambda a,b,c: a+b+c
+# print(add(1,2,3))
+
+
+
+# numbers = [1, 2, 3, 4]
+# result = list(map(lambda x: x * 2, numbers))
+# print(result)
+
+# numbers = [1, 2, 3, 4]
+# cubelist = list(map(lambda x: x*x*x , numbers))
+# print(cubelist)
+
+
+
+# def chkeven(n):
+#     if(n%2 ==0):
+#         return True
+#     return False
+# if(chkeven(50)):
+#     print("even no ")
+# else:
+#     print ("odd no ")
+
 # print("5 is even no ", chkeven(5))
 # print("8 is even no ", chkeven(8))
 
