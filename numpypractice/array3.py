@@ -26,9 +26,38 @@ import numpy as np
 # aryi = np.eye(4,3)
 # print(aryi)
 # ----------------------
-aryrandom = np.random.randint(25,50,10)
-print(aryrandom)
-arr = np.random.rand(15)
+# aryrandom = np.random.randint(25,50,10)
+# print(aryrandom)
+# arr = np.random.rand(15)
 
-print(arr)
+# print(arr)
 
+# ary = np.array([500])
+# print(ary)
+
+# ary = np.linspace(0,50,20)
+# print(ary)
+
+# Generate 20 random sales values between 1000 and 10000.
+# ary = np.random.randint(1000,10000,20)
+# print(ary)
+# print("shape", ary.shape)
+# print("size", ary.size)
+# print("dime", ary.ndim)
+# Create a customer age dataset using NumPy arrays.
+# aryage = np.array([32,43,54,23,54,12,53])
+# for i  in aryage:
+#     print(i )
+
+ary3 = np.array([
+    [
+        [1,2,3],
+        [4,5,6]
+    ],
+    [ [33,44,55],
+     [22,33,44]]
+])
+print(ary3)
+print("dim  ",ary3.ndim)
+print("size ",ary3.size)
+print("shape ", ary3.shape)
