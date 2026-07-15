@@ -1,0 +1,65 @@
+import pandas as pd
+import numpy as np
+
+df = pd.DataFrame({
+    "EmpID":[101,102,103,104,104,105,106,107],
+    "Name":[" Amit ","Riya","Karan",None,"Karan"," Neha ","amit","Rohit"],
+    "Age":[25,np.nan,28,30,30,27,np.nan,29],
+    "Salary":[45000,52000,np.nan,61000,61000,58000,47000,np.nan],
+    "Department":["HR","IT","IT","Sales","Sales","HR","IT",None]
+})
+Questions
+Display all missing values.
+Count missing values in each column.
+Remove all rows containing missing values.
+Remove columns containing missing values.
+Replace all missing numeric values with 0.
+Replace missing values with the column mean.
+Replace missing Department values with "Unknown".
+Remove duplicate rows.
+Keep only the last occurrence of duplicate records.
+Convert Age column to integer after filling missing values.
+Convert Salary column to float.
+Remove leading and trailing spaces from Name.
+Convert all employee names to uppercase.
+Convert all employee names to lowercase.
+Remove rows where Name is missing.
+Find employees whose names contain "amit" (case insensitive).
+Replace "amit" with "Amit" in the Name column.
+--------------------------------
+import pandas as pd
+
+df = pd.DataFrame({
+    "Name":["Amit","Neha","Raj","Pooja","Rohan","Anjali"],
+    "Math":[78,92,65,88,55,81],
+    "Science":[82,89,70,91,60,85]
+})
+Create a new column Bonus with value 5 for every student.
+Create a new column Total by adding Math and Science marks.
+Create a new column Percentage.
+Create a new column Average.
+Create a new column Result (Pass if Average ≥ 40, otherwise Fail).
+Create a new column Grade using:
+A : Average ≥ 90
+B : Average ≥ 75
+C : Average ≥ 60
+D : Otherwise
+Add 10 marks to every student's Math score using apply().
+Add 5 marks to every student's Science score using map().
+Find the length of each student's name using apply(len).
+Convert all names to uppercase using apply().
+Convert all names to lowercase using map().
+Replace "Amit" with "Amit Sharma".
+Replace all marks equal to 55 with 60.
+Replace multiple values using a dictionary.
+Create a column Remarks:
+Excellent (Average ≥ 90)
+Good (Average ≥ 75)
+Average (Average ≥ 60)
+Needs Improvement (Below 60)
+Create a column Scholarship:
+Yes if Average ≥ 85
+No otherwise
+Create a column Math + Bonus (Math + 10).
+Display only students whose Result is Pass.
+Count the number of Pass and Fail students.
